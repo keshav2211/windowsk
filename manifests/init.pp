@@ -1,5 +1,5 @@
 class windowsk {
 
-include ::windowsk::localuser
+include ::windowsk::localaccount
 
 }
