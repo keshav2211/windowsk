@@ -1,5 +1,5 @@
 class windowsk::localuser {
 
-user { 'keshav':
+user { 'keshav_s':
   ensure => present,
 }
