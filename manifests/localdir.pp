@@ -7,4 +7,12 @@ file { 'sbdir':
   group => 'puppetadmin',
 }
 
+acl { 'C:/skill_builder':
+  permissions                => [
+   { identity => 'keshav_s', rights => ['full'] },
+   { identity => 'puppetadmin', rights => ['read'] },
+  ],
+  inherit_parent_permissions => false,
+}
+
 }
